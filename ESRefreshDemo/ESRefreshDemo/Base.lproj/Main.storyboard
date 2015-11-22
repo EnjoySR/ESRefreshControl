@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-1701" y="-639"/>
         </scene>
-        <!--新浪-->
+        <!--新浪微博-->
         <scene sceneID="jEh-Ag-thO">
             <objects>
                 <tableViewController id="Lp1-v9-cKG" customClass="SinaTableVewController" customModule="ESRefreshDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                             <outlet property="delegate" destination="Lp1-v9-cKG" id="IJ3-Fz-FHW"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="新浪" id="5Gy-Zu-6Si"/>
+                    <navigationItem key="navigationItem" title="新浪微博" id="5Gy-Zu-6Si"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A5b-IC-WPn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -81,7 +81,7 @@
             </objects>
             <point key="canvasLocation" x="274" y="-806"/>
         </scene>
-        <!--网易-->
+        <!--网易新闻-->
         <scene sceneID="FP1-gv-pAB">
             <objects>
                 <tableViewController id="oaq-kX-Kfd" customClass="NetEaseTableVewController" customModule="ESRefreshDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -104,17 +104,17 @@
                             <outlet property="delegate" destination="oaq-kX-Kfd" id="mZm-33-Wqy"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="网易" id="Vrz-Sw-3Pb"/>
+                    <navigationItem key="navigationItem" title="网易新闻" id="Vrz-Sw-3Pb"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FzL-Eq-mK4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="218" y="-91"/>
         </scene>
-        <!--网易-->
+        <!--网易新闻-->
         <scene sceneID="6jM-pE-2FT">
             <objects>
                 <navigationController id="Nqo-kN-FlV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="网易" image="refresh_sphere" id="4ns-Zs-mzs"/>
+                    <tabBarItem key="tabBarItem" title="网易新闻" image="refresh_sphere" id="4ns-Zs-mzs"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IbG-aR-5WA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -144,11 +144,11 @@
             </objects>
             <point key="canvasLocation" x="-428" y="-806"/>
         </scene>
-        <!--新浪-->
+        <!--新浪微博-->
         <scene sceneID="H0M-mh-pqz">
             <objects>
                 <navigationController id="Dgz-xK-Y5n" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="新浪" image="tableview_pull_refresh" id="lho-8W-qY3"/>
+                    <tabBarItem key="tabBarItem" title="新浪微博" image="tableview_pull_refresh" id="lho-8W-qY3"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rAG-c3-sVT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
