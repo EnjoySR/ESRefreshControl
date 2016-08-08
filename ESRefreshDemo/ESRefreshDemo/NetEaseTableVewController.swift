@@ -59,7 +59,7 @@ class NetEaseTableVewController: UITableViewController {
     
     private lazy var netEaseRefreshControl: ESNetEaseRefreshControl = {
         let refreshControl = ESNetEaseRefreshControl()
-        refreshControl.addTarget(self, action: "loadData", forControlEvents: .ValueChanged)
+        refreshControl.addTarget(self, action: #selector(NetEaseTableVewController.loadData), forControlEvents: .ValueChanged)
         return refreshControl
     }()
 }

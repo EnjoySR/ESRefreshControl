@@ -61,7 +61,7 @@ class BaiduTableVewController: UITableViewController {
     
     private lazy var baiduRefreshControl: ESBaiduRefreshControl = {
         let refreshControl = ESBaiduRefreshControl()
-        refreshControl.addTarget(self, action: "loadData", forControlEvents: .ValueChanged)
+        refreshControl.addTarget(self, action: #selector(BaiduTableVewController.loadData), forControlEvents: .ValueChanged)
         return refreshControl
     }()
 
