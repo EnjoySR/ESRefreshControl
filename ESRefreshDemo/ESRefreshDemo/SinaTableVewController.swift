@@ -64,7 +64,7 @@ class SinaTableVewController: UITableViewController {
     
     private lazy var sinaRefreshControl: ESSinaRefreshControl = {
         let refreshControl = ESSinaRefreshControl()
-        refreshControl.addTarget(self, action: "loadData", forControlEvents: .ValueChanged)
+        refreshControl.addTarget(self, action: #selector(SinaTableVewController.loadData), forControlEvents: .ValueChanged)
         return refreshControl
     }()
 
